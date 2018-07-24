@@ -1,0 +1,4 @@
+Experiments are used to define concrete simulations of the overall warehouse optimization process.
+
+Execute experiments from top level directory as:
+python3 -m Experiments.file.function

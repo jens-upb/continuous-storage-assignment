@@ -1,0 +1,11 @@
+Testbench files are used to test the module implementations.
+
+As Testbench is a subpackage, at the same level as Modules, you cannot easily import Modules and run testbenches from within the testbench folder.
+See https://python-notes.curiousefficiency.org/en/latest/python_concepts/import_traps.html#the-double-import-trap for an explanation.
+
+To avoid tricky import statements execute Testbenches from the top level directory with the -m switch
+As an example, in the Continuous_storage_assignment folder execute the following command:
+
+"python3 -m Testbench.loadModules"
+
+Notice, that you do not use the .py statement at the end.
